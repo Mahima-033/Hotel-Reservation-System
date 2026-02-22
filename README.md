@@ -46,7 +46,7 @@ private static final String username = "root";
 private static final String password = ""; // add your local password
 
 5.Run the HotelReservationSystem class
-
+---
 ### Table Structure
 ```sql
     CREATE TABLE reservations (
