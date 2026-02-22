@@ -41,3 +41,18 @@ CREATE TABLE reservations (
     Contact_Number VARCHAR(15),
     Reservation_Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+-----
+
+### ⚙️ Setup Instructions
+
+1.Install MySQL
+2.Create a database named hotel_db
+3.Create the reservations table using the SQL above
+4.Update database credentials in the code:
+
+private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
+private static final String username = "root";
+private static final String password = ""; // add your local password
+
+5.Run the HotelReservationSystem class
+
