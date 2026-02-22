@@ -32,6 +32,8 @@ This project allows users to manage hotel room reservations through a simple men
 **Database Name:** `hotel_db`  
 **Table Name:** `reservations`
 
+---
+
 ### ⚙️ Setup Instructions
 
 1.Install MySQL
