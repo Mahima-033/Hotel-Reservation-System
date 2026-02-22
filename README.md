@@ -32,17 +32,6 @@ This project allows users to manage hotel room reservations through a simple men
 **Database Name:** `hotel_db`  
 **Table Name:** `reservations`
 
-### Table Structure
-```sql
-CREATE TABLE reservations (
-    Reservation_Id INT AUTO_INCREMENT PRIMARY KEY,
-    Guest_Name VARCHAR(100),
-    Room_Number INT,
-    Contact_Number VARCHAR(15),
-    Reservation_Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
------
-
 ### ⚙️ Setup Instructions
 
 1.Install MySQL
@@ -55,4 +44,17 @@ private static final String username = "root";
 private static final String password = ""; // add your local password
 
 5.Run the HotelReservationSystem class
+
+### Table Structure
+```sql
+    CREATE TABLE reservations (
+        Reservation_Id INT AUTO_INCREMENT PRIMARY KEY,
+        Guest_Name VARCHAR(100),
+        Room_Number INT,
+        Contact_Number VARCHAR(15),
+        Reservation_Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+    -----
+
+
 
