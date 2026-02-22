@@ -40,7 +40,8 @@ This project allows users to manage hotel room reservations through a simple men
 2. Create a database named hotel_db  
 3. Create the reservations table using the SQL above  
 4. Update database credentials in the code:
-   ```private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
+   ```
+      private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
       private static final String username = "root";
       private static final String password = ""; // add your local password```
 6. Run the HotelReservationSystem class
